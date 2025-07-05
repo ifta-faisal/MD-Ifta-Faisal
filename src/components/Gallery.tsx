@@ -1,66 +1,79 @@
 import React from 'react';
 
+// Import images explicitly (put these files inside `src/assets/` folder)
+import img4 from '../assets/img_4.jpg';
+import img5 from '../assets/img_5.jpg';
+import img6 from '../assets/img_6.jpg';
+import img7 from '../assets/img_7.jpg';
+import img8 from '../assets/img_8.jpg';
+import img9 from '../assets/img_9.png';
+import img10 from '../assets/img_10.jpg';
+import img11 from '../assets/img_11.jpg';
+import img12 from '../assets/img_12.jpg';
+import img13 from '../assets/img_13.jpg';
+import img14 from '../assets/img_14.jpg';
+
 const Gallery = () => {
   const projects = [
     {
-      title: "Mars Rover Competition 2024 ",
-      image: "img_4.jpg",
+      title: "Mars Rover Competition 2024",
+      image: img4,
       description: "UIU Mars Rover Team competing in international challenges"
     },
     {
       title: "Custom Drone Design",
-      image: "img_5.jpg",
+      image: img5,
       description: "High-performance quadrotor with custom Frame"
     },
     {
       title: "Mars Rover Competition 2025",
-      image: "img_6.jpg",
+      image: img6,
       description: "UIU Mars Rover Team competing in international challenges"
     },
     {
-      title: "Custom Drone ",
-      image: "img_9.png",
+      title: "Custom Drone",
+      image: img9,
       description: "Custom made Surveillance Drone"
     },
     {
       title: "FPV Drone",
-      image: "img_8.jpg",
-      description: " Custom Made FPV Drone"
+      image: img8,
+      description: "Custom Made FPV Drone"
     },
     {
       title: "Competition Success",
-      image: "img_7.jpg",
-      description: "University Rover Challange 2025 Best Science Team"
+      image: img7,
+      description: "University Rover Challenge 2025 Best Science Team"
     },
-     {
-      title: "Mars Rover Competition 2024 ",
-      image: "img_4.jpg",
+    {
+      title: "Mars Rover Competition 2024",
+      image: img4,
       description: "UIU Mars Rover Team competing in international challenges"
     },
     {
-      title: "Custom Drone's ",
-      image: "img_14.jpg",
+      title: "Custom Drones",
+      image: img14,
       description: "High-performance quadrotors"
     },
     {
       title: "URC 2024",
-      image: "img_10.jpg",
-      description: "University Rover Challange 2024"
+      image: img10,
+      description: "University Rover Challenge 2024"
     },
     {
-      title: "URC 2024 ",
-      image: "img_13.jpg",
-      description: "University Rover Challange 2024"
-    },
-    {
-      title: "URC 2025",
-      image: "img_12.jpg",
-      description: " University Rover Challange 202"
+      title: "URC 2024",
+      image: img13,
+      description: "University Rover Challenge 2024"
     },
     {
       title: "URC 2025",
-      image: "img_11.jpg",
-      description: "University Rover Challange 2025 "
+      image: img12,
+      description: "University Rover Challenge 2025"
+    },
+    {
+      title: "URC 2025",
+      image: img11,
+      description: "University Rover Challenge 2025"
     }
   ];
 
