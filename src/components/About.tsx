@@ -25,7 +25,7 @@ Driven by curiosity and self-learning, my journey in robotics has led me to lead
 
 In parallel, I’ve designed and built award-winning UAV platforms—from endurance-optimized quadcopters to heavy-lift X8 drones—with a strong focus on performance, reliability, and real-world application. I also engineer custom lithium battery packs specifically for robotics and aerial systems, prioritizing high-discharge capability and extended efficiency.
 
-As the founder of Robotonbd, I aim to bridge the gap between advanced tech and emerging talent—equipping makers, students, and professionals with the tools and resources to innovate in drones, robotics, and STEM education. Whether it’s building a rover, powering a long-range UAV, or mentoring future engineers—I’m committed to creating meaningful impact through engineering.
+I aim to bridge the gap between advanced tech and emerging talent—equipping makers, students, and professionals with the tools and resources to innovate in drones, robotics, and STEM education. Whether it’s building a rover, powering a long-range UAV, or mentoring future engineers—I’m committed to creating meaningful impact through engineering.
 
  </p>
           
