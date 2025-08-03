@@ -5,19 +5,19 @@ const Success = () => {
   const achievements = [
     {
       icon: <Trophy className="text-yellow-500" size={48} />,
-      number: "15+",
+      number: "10+",
       title: "Competition Wins",
       description: "National and international drone competitions"
     },
     {
       icon: <Target className="text-blue-500" size={48} />,
-      number: "50+",
+      number: "20+",
       title: "Projects Completed",
       description: "Custom drones and robotics solutions"
     },
     {
       icon: <Users className="text-green-500" size={48} />,
-      number: "200+",
+      number: "40+",
       title: "Students Mentored",
       description: "Through STEM education programs"
     },
@@ -54,11 +54,11 @@ const Success = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-800 rounded-lg p-6">
               <h4 className="text-lg font-semibold mb-3 text-blue-400">International Recognition</h4>
-              <p className="text-gray-300">Competed in Anatolian Rover Challenge (ARC) in Turkey and University Rover Challenge (URC) in the United States as Communication Sub Team lead.</p>
+              <p className="text-gray-300">Competed in University Rover Challenge (URC) in the United States and Anatolian Rover Challenge (ARC) in Turkey as Communication Sub Team lead.</p>
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
               <h4 className="text-lg font-semibold mb-3 text-green-400">Innovation Leadership</h4>
-              <p className="text-gray-300">empowering makers and students with cutting-edge tools for drones, robotics, and STEM education.</p>
+              <p className="text-gray-300">Empowering makers and students with cutting-edge tools for drones and robotics.</p>
             </div>
           </div>
         </div>

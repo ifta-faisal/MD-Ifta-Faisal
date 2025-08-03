@@ -1,42 +1,59 @@
 import React from 'react';
+import { Rocket, Award, Users, Zap } from 'lucide-react';
 
 const About = () => {
   return (
-    <section className="relative min-h-screen flex items-center">
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
-        style={{
-          backgroundImage: 'url(/img_2.jpg)'
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-      </div>
-      
-      <div className="relative z-10 container mx-auto px-6 text-center">
-        <h2 className="text-5xl lg:text-6xl font-bold text-white mb-12">
-          ABOUT MY JOURNEY
-        </h2>
-        
-        <div className="max-w-5xl mx-auto space-y-8 text-white">
-          <p className="text-lg lg:text-xl leading-relaxed">
-            I'm MD Ifta Faisal , A passionate UAV and robotics specialist with a strong foundation in autonomous systems, power electronics, and hands-on innovation.
-
-Driven by curiosity and self-learning, my journey in robotics has led me to lead the UIU Mars Rover Team in globally renowned competitions like the Anatolian Rover Challenge (Turkey) and the University Rover Challenge (USA). These international platforms not only sharpened my technical and leadership skills but also deepened my passion for space robotics and interplanetary exploration—further fueled by my involvement with The Mars Society.
-
-In parallel, I’ve designed and built award-winning UAV platforms—from endurance-optimized quadcopters to heavy-lift X8 drones—with a strong focus on performance, reliability, and real-world application. I also engineer custom lithium battery packs specifically for robotics and aerial systems, prioritizing high-discharge capability and extended efficiency.
-
-I aim to bridge the gap between advanced tech and emerging talent—equipping makers, students, and professionals with the tools and resources to innovate in drones, robotics, and STEM education. Whether it’s building a rover, powering a long-range UAV, or mentoring future engineers—I’m committed to creating meaningful impact through engineering.
-
- </p>
-          
-          <p className="text-lg lg:text-xl leading-relaxed">
-           As the Communication Sub-Team Lead of the UIU Mars Rover Team, I had the privilege of contributing to prestigious international competitions such as the Anatolian Rover Challenge (ARC) in Turkey and the University Rover Challenge (URC) in the United States. These experiences enhanced my expertise in communication systems and team collaboration, while immersing me in the forefront of robotics, autonomous systems, and space exploration. I'm also a proud member of The Mars Society, which continues to inspire my passion for interplanetary technology and innovation</p>
-          
-          <p className="text-lg lg:text-xl leading-relaxed">
-            Alongside robotics, I've achieved notable success in the UAV domain—designing and building drones that have won multiple national competitions. From high-endurance quadrotors to heavy-lift X8 platforms, my designs emphasize innovation, reliability, and real-world performance. I also specialize in custom battery pack design tailored for robotics and drone applications—balancing high-discharge rates with long runtime efficiency.
+    <section id="about" className="py-20 bg-white">
+      <div className="container mx-auto px-6">
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            About My Journey
+          </h2>
+          <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            A self-taught innovator pushing the boundaries of UAV technology, robotics, and autonomous systems
           </p>
-          
-          
+        </div>
+
+        {/* Full width content */}
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div className="space-y-6">
+            <h3 className="text-3xl font-bold text-gray-900">
+              Driven by Innovation
+            </h3>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              I'm MD Ifta FAisal a passionate UAV and robotics enthusiast with deep expertise in drone systems, 
+              battery technology, and autonomous machines. My journey has been largely self-taught—driven by 
+              relentless curiosity, hands-on learning, and a desire to build what others only imagine.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              As the team Sub Team lead of the UIU Mars Rover Team, I competed in prestigious international events 
+              like the Anatolian Rover Challenge (ARC) in Turkey and the University Rover Challenge (URC) 
+              in the United States. These experiences sharpened my technical and leadership abilities while 
+              immersing me in cutting-edge robotics and space exploration.
+            </p>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="mt-20 text-center">
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-3xl font-bold text-gray-900 mb-6">
+              Professional Affiliations
+            </h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              <span className="px-6 py-3 bg-blue-100 text-blue-800 rounded-full font-medium">
+                From Earth to Mars: Building the Future of Autonomy
+              </span>
+              <span className="px-6 py-3 bg-orange-100 text-orange-800 rounded-full font-medium">
+                Innovating at the Edge of Exploration
+              </span>
+              <span className="px-6 py-3 bg-purple-100 text-purple-800 rounded-full font-medium">
+                Pushing Limits in Robotics, UAVs & Beyond
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

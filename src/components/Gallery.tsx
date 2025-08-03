@@ -12,6 +12,7 @@ import img11 from '../assets/img_11.jpg';
 import img12 from '../assets/img_12.jpg';
 import img13 from '../assets/img_13.jpg';
 import img14 from '../assets/img_14.jpg';
+import img17 from '../assets/img_17.jpg';
 
 const Gallery = () => {
   const projects = [
@@ -46,9 +47,9 @@ const Gallery = () => {
       description: "University Rover Challenge 2025 Best Science Team"
     },
     {
-      title: "Mars Rover Competition 2024",
-      image: img4,
-      description: "UIU Mars Rover Team competing in international challenges"
+      title: "Team Of 2025",
+      image: img17,
+      description: "UIU Mars Rover Team"
     },
     {
       title: "Custom Drones",
@@ -78,12 +79,12 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-white">
+    <section id="project-gallery" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-16">
           Project Gallery
         </h2>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">

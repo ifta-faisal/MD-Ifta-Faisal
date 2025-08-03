@@ -28,25 +28,27 @@ const Experience = () => {
   ];
 
   const education = [
-     {
-      degree: "Secondary School Certificate",
-      institution: "Govt. Sara Marwari Model School & College",
-      period: "2017 - 20218",
-      location: "Ishwardi, Pabna"
+    
+      {
+      degree: "Bachelor of Science in Computer Science & Engineering",
+      institution: "United International University",
+      period: "2022 - Present",
+      location: "Dhaka, Bangladesh"
     },
     
-     {
+    {
       degree: "Higher Secondary School Certificate",
       institution: "Ishwardi Govt. College",
       period: "2019 - 2020",
       location: "Ishwardi, Pabna"
     },
     {
-      degree: "Bachelor of Science in Computer Science & Engineering",
-      institution: "United International University",
-      period: "2022 - Present",
-      location: "Dhaka, Bangladesh"
+      degree: "Secondary School Certificate",
+      institution: "Govt. Sara Marwari Model School & College",
+      period: "2017 - 20218",
+      location: "Ishwardi, Pabna"
     }
+  
   ];
 
   return (

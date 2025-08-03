@@ -11,12 +11,12 @@ const Skills = () => {
     {
       icon: <Battery className="text-green-600" size={32} />,
       title: "Battery Technology",
-      skills: ["Custom Battery Packs", "High-discharge Rate Design", "Runtime Optimization", "Power Management", "Charging Systems"]
+      skills: ["Custom Battery Packs", "Power Management", "Charging Systems"]
     },
     {
       icon: <Rocket className="text-red-600" size={32} />,
       title: "Robotics & Space",
-      skills: ["Mars Rover Design", "Autonomous Machines", "Sensor Integration", "Mechanical Design", "Space Exploration Tech"]
+      skills: [ "Autonomous Machines", "Sensor Integration", "Mechanical Design"]
     },
     {
       icon: <Code className="text-purple-600" size={32} />,
@@ -26,7 +26,7 @@ const Skills = () => {
     {
       icon: <Users className="text-indigo-600" size={32} />,
       title: "Leadership & Education",
-      skills: ["Team Leadership", "STEM Education", "Mentoring", "Project Management", "Competition Strategy"]
+      skills: ["Team Leadership", "Mentoring", "Project Management", "Competition Strategy"]
     }
   ];
 
